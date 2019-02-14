@@ -1,0 +1,83 @@
+body {
+  font-family: 'Lora', sans-serif;
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+
+  color:rgba(0, 0, 0, 0.54)
+}
+
+p {
+  font-size: 21px;
+
+}
+.img-circle {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.article-header {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.article-header a {
+  color: rgba(0, 0, 0, 0.84);
+
+}
+
+.font-small {
+  font-size: 16px;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-color: rgba(233, 253, 240, 1);
+  color: #636363;
+  font-weight: 100;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+}
+.link-medium:hover {
+  background-color: rgba(125, 255, 179, 1)
+}
+
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
